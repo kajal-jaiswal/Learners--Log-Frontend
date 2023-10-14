@@ -1,0 +1,133 @@
+/* Users.css */
+
+body {
+  background-color:rgb(15, 9, 69) ; /* Change to the desired color code */
+
+}
+
+.users-container {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 100px;
+  }
+ 
+  .users-heading {
+   
+    background-color: #edf2ef;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:black;
+   
+   
+  }
+  
+  .add-button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+  }
+  
+  .user-cards {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .user-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Adjust as needed for your layout */
+    text-align: center;
+  }
+  
+  .user-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-email {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .user-age {
+    margin-bottom: 20px;
+  }
+  .edit-button{
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  .edit-button:hover{
+    background:#0b5ed7 ;
+    color: #fff;
+
+  }
+  
+  .edit-button,
+  .delete-button {
+    margin: 2px;
+    margin-top: 10px;
+    width: 100px;
+    
+  }
+  /* Footer Styles */
+
+  .footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none; /* Initially hidden */
+    border-top: 2px solid #0d6efd;
+  }
+  .show-footer {
+    display: block;
+  }
+
+.footer p {
+  margin: 0; /* Remove default margin for the paragraph inside the footer */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+/* Add this to your existing CSS file (Users.css or a separate file) */
+.footer-icons {
+  margin-bottom: 5px;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 24px; /* Icon size */
+}
+
+/* Hover effect for icons */
+.footer-icons a:hover {
+  color: #0d6efd; /* Change the color on hover */
+}
+
+
+
+  /* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .user-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .user-card {
+      width: 100%;
+    }
+  }
+  
+  /* Add more custom styles as needed */

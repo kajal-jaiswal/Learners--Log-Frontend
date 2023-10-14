@@ -1,0 +1,64 @@
+/* UpdateUsers.css */
+
+.update-users-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(15, 9, 69); /* Background color for the entire page */
+  }
+  
+  .update-users-card {
+    background-color: #fff;
+    border: 1px solid #ec4040;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+   
+  }
+  
+  .update-users-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btn-success {
+    width: 25%;
+    padding: 7px;
+    font-size: 16px;
+    background-color: #4563cf; /* Button color */
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .edit-button {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .user-card {
+      width: 100%;
+    }
+  }
+  /* Add more custom styles as needed */
+  
