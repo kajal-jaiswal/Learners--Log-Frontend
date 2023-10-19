@@ -14,7 +14,7 @@ function UpdateUsers() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/getUser/" + id)
+      .get("https://learners-log-backend.onrender.com/getUser/" + id)
       .then((result) => {
         console.log(result);
         setName(result.data.name);
